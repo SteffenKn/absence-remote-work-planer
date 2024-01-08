@@ -1,0 +1,12 @@
+{
+  "apiKey": "https://app.absence.io/#/mycalendar -> Oben rechts auf den Namen klicken -> Profil -> Integrationen -> API Schlüssel",
+  "apiKeyId": "https://app.absence.io/#/mycalendar -> Oben rechts auf den Namen klicken -> Profil -> Integrationen -> API Schlüssel",
+  "email": "<Your-Email>",
+  "remoteWorkdays": {
+    "monday": false,
+    "tuesday": false,
+    "wednesday": true,
+    "thursday": true,
+    "friday": false
+  }
+}
