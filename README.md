@@ -1,0 +1,1 @@
+# absence-remote-work-planer
