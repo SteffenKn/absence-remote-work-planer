@@ -160,14 +160,6 @@ async function createAbsence(me: string, day: Date, remoteWorkReason: Reason) {
     .setZone('Europe/Berlin')
     .toISO();
 
-  console.log({
-    assignedToId: me,
-    approverId: me,
-    start: startDateString,
-    end: endDateString,
-    reasonId: remoteWorkReason._id,
-  });
-
   const absence = await absenceIO.api.absence.createAbsence({
     assignedToId: me,
     approverId: me,
